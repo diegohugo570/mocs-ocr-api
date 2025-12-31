@@ -40,3 +40,12 @@ cd backend
 - **CORS** foi configurado explicitamente para permitir integração segura com o frontend durante o desenvolvimento.
 
 O projeto foi estruturado em camadas (rotas, middlewares e serviços), seguindo boas práticas de APIs REST, com tratamento adequado de erros e respostas claras para o cliente.
+
+---
+
+## 🎥 Vídeo Explicativo
+
+Vídeo explicando as decisões técnicas, arquitetura e funcionamento do projeto:
+
+👉 https://www.loom.com/share/0f83b4adf2f243e6a360af3d4622e7b0
+
