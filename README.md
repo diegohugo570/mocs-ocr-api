@@ -28,3 +28,15 @@ tratamento de erros, boas práticas de API e integração com OCR.
 ```bash
 git clone <url-do-repositorio>
 cd backend
+
+---
+
+## 🧠 Decisões Técnicas
+
+- **Express + TypeScript** foram escolhidos para garantir organização, tipagem forte e facilidade de manutenção do código.
+- **Multer** foi utilizado para lidar com upload de arquivos de forma segura e controlada.
+- **Tesseract.js** foi adotado como motor de OCR por ser open-source e atender ao requisito de extração de texto a partir de imagens.
+- **PostgreSQL** foi utilizado para persistir os textos extraídos, permitindo futuras buscas textuais.
+- **CORS** foi configurado explicitamente para permitir integração segura com o frontend durante o desenvolvimento.
+
+O projeto foi estruturado em camadas (rotas, middlewares e serviços), seguindo boas práticas de APIs REST, com tratamento adequado de erros e respostas claras para o cliente.
